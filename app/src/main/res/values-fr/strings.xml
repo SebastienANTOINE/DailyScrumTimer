@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Daily Scrum Timer</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="participants">participants</string>
+    <string name="go">GO</string>
+    <string name="summary">Résumé</string>
+    <string name="average_time">Temps moyen</string>
+    <string name="open_discussion">Discussion ouverte</string>
+    <string name="standup_time_desc">Durée en minutes : </string>
+    <string name="default_sound">Son par défaut : </string>
+    <string name="send_feedback"><u>Envoyer des commentaires</u></string>
+    <string name="rate_app"><u>Noter l\'app</u></string>
+
+</resources>

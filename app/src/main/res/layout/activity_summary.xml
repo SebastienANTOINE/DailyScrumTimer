@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/summaryTextView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_top"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/summary"
+        android:textColor="@color/white"
+        android:textSize="@dimen/top_text_size" />
+
+    <TextView
+        android:id="@+id/statsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <fr.sebastien.antoine.dailyscrumtimer.app.utils.BarGraph
+        android:id="@+id/bargraph"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp" />
+</LinearLayout>
+

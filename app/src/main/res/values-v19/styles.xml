@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="BaseTheme" parent="android:Theme.Holo.NoActionBar.TranslucentDecor"></style>
+
+    <style name="ValtechTheme" parent="BaseTheme">
+        <item name="android:windowBackground">@color/grey</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>

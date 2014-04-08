@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="grey">#333333</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="black_next">#202020</color>
+    <color name="green_light">#32CD32</color>
+    <color name="green_highlight">#6EFF70</color>
+    <color name="dark_background">#2a2a2a</color>
+    <color name="transparent_white">#CCffffff</color>
+    <color name="grey_light">#bdbdbd</color>
+    <color name="red">#FF4444</color>
+
+    <string-array name="circle_colors">
+
+        <item>#ff5ebb65</item>
+        <item>#ff8bd97e</item>
+        <item>#ff7bc9b2</item>
+        <item>#96D6D9</item>
+        <item>#FEE5AD</item>
+        <item>#FACA66</item>
+        <item>#F7A541</item>
+        <item>#F47F47</item>
+        <item>#F45D4C</item>
+        <item>#742C24</item>
+        <item>#4C1D17</item>
+    </string-array>
+
+    <string-array name="circle_colors_inverse">
+        <item>#A75C13</item>
+        <item>#FFB369</item>
+        <item>#FFC082</item>
+        <item>#D9B096</item>
+        <item>#96ACD9</item>
+        <item>#69A1FF</item>
+        <item>#3FB8F2</item>
+        <item>#41F7E7</item>
+        <item>#41F798</item>
+        <item>#24744A</item>
+        <item>#174C32</item>
+    </string-array>
+</resources>

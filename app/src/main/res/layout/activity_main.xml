@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutHome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="fr.sebastien.antoine.dailyscrumtimer.app.ui.HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_top">
+
+        <ImageButton
+            android:id="@+id/infoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="16dp"
+            android:background="@android:drawable/ic_dialog_info" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/layoutCircularSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <fr.sebastien.antoine.dailyscrumtimer.app.utils.CircularSeekBar
+            android:id="@+id/circularSeekBarParticipants"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextSwitcher
+                android:id="@+id/textViewNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/textViewParticipants"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/participants"
+                android:textColor="@color/grey_light"
+                android:textSize="@dimen/participants_text_size" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="@dimen/layout_bottom"
+        android:layout_height="@dimen/layout_bottom"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:layout_weight="0"
+        android:background="@drawable/background_blur"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonGo"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:background="@drawable/round_button_selector_go"
+            android:text="@string/go"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
